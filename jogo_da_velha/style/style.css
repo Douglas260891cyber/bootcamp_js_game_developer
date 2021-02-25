@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+.quadrado {
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  background-color: #eee;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  color: #eee;
+}
+.quadrado:hover {
+  cursor: pointer;
+}
+.vencedor, .jogador{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;    
+    margin-bottom: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    transition: .3s;
+}
+
+/*CONTINUAR AULA 4*/
