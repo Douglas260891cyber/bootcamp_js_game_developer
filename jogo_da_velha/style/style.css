@@ -1,10 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
   text-align: center;
+  font-family: "Akaya Kanadaka", cursive;
 }
+
+img {
+  display: flex;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/*Alinhando horizontalmente*/
+.titulo {
+  margin: 0 auto;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .quadrado {
   text-align: center;
   width: 50px;
@@ -15,30 +37,34 @@ body {
   margin: 5px;
   color: #eee;
 }
+
 .quadrado:hover {
   cursor: pointer;
 }
-.vencedor, .jogador{
-    font-size: 30px;
-    margin-top: 10px;
+
+.vencedor,
+.jogador {
+  font-size: 30px;
+  margin-top: 10px;
 }
 
-button{
-    height: 40px;
-    width: 100px;
-    font-size: 18px;
-    background-color: blueviolet;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    margin-top: 10px;    
-    margin-bottom: 20px;
+button {
+  height: 40px;
+  width: 100px;
+  font-size: 18px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-button:hover{
-    cursor: pointer;
-    background-color: cornflowerblue;
-    transition: .3s;
+
+button:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+  transition: 0.3s;
 }
 
 /*CONTINUAR AULA 4*/
