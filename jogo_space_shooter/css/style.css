@@ -10,13 +10,25 @@ body {
   background-color: cornflowerblue;
 }
 #campo-de-jogo {
-  background-color: black;
-  background-image: url(img/nave.png);
+  background-color: rgb(9, 3, 48);
   height: 600px;
   width: 600px;
 }
-.nave {
+#nave {
   transform: scaleX(-1); /*comando para espelhar a imagem*/
+  position: relative;
+  width: 80px;
+  left: 20px;
+  top: 250px;
+}
+.tiro{
+  position: relative;
+  width: 35px;
+  left: 20px;
+  top: 235px;
+  background-image: url("/img/laser.png");
 }
 
-/*continuar aula 2*/
+/*continuar aula 4*/
+
+
