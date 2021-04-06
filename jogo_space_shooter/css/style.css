@@ -10,25 +10,27 @@ body {
   background-color: cornflowerblue;
 }
 #campo-de-jogo {
-  background-color: rgb(9, 3, 48);
+  background-color: black;
   height: 600px;
   width: 600px;
 }
 #nave {
   transform: scaleX(-1); /*comando para espelhar a imagem*/
   position: relative;
-  width: 80px;
+  width: 90px;
   left: 20px;
   top: 250px;
 }
+
 .tiro{
-  position: relative;
-  width: 35px;
-  left: 20px;
-  top: 235px;
-  background-image: url("/img/laser.png");
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  background-color: red;
+  border-radius: 100%;
+  top: 401px; 
+  left: 700px;
+  z-index: 1; 
 }
-
-/*continuar aula 4*/
-
+ 
 
